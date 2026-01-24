@@ -8,9 +8,15 @@ connectDB();
 
 const app = express();
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://interior-design.vercel.app"
+];
+
 app.use(cors({
-  origin: "*"
+  origin: allowedOrigins
 }));
+
 app.use(express.json());
 
 app.use('/api/auth', require('./routes/auth'));

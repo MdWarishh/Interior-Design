@@ -14,7 +14,11 @@ const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     setStatus('sending');
     
     try {
-      await axios.post('http://localhost:5000/api/contact/submit', formData);
+  await axios.post(
+  `${import.meta.env.VITE_API_BASE_URL}/api/contact/submit`,
+  formData
+);
+
       setStatus('success');
       setFormData({ name: '', email: '', message: '' });
     } catch (err) {
