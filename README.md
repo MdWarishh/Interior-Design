@@ -55,3 +55,39 @@ reach out directly.
 
 ## 🚀 Run Locally
 ```bash
+git clone https://github.com/MdWarishh/interior-design
+cd interior-design
+npm install
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+<!-- 
+  Tip: Add 2-3 screenshots here showing:
+  1. Hero / Home section
+  2. Portfolio section
+  3. Mobile view
+  These visuals make the biggest difference for anyone browsing your repo.
+-->
+
+| Home | Portfolio | Mobile |
+|------|-----------|--------|
+| ![Home](./screenshots/home.png) | ![Portfolio](./screenshots/portfolio.png) | ![Mobile](./screenshots/mobile.png) |
+
+---
+
+## 💼 Available for Client Use
+
+This website is available as a ready-to-deploy solution for interior design
+studios and similar businesses. Fully customizable — content, colors, and
+branding can be updated to match any client's identity.
+
+Interested? → [Let's talk](mailto:warishmohd519@gmail.com)
+
+---
+
+*Built by [Md Warish](https://github.com/MdWarishh) — Full-Stack Developer
+crafting premium web experiences.*
